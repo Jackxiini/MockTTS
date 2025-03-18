@@ -30,6 +30,7 @@ In the list file, it should be like:
 lxx/lxx_1.wav|lxx|en|You don't live here, said the fox.
 lxx/lxx_2.wav|lxx|en|What is that you are looking for?
 ```
+The first part is the location of each file, the second part is the speaker name, the third part en represents English, zh represents Chinese, and the last part is the text in the corresponding wav file
 #### Done!
 
 ### 4. Finetune the model on your voice

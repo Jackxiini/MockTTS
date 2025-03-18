@@ -25,6 +25,11 @@ Note: Sometimes the end of the audio will contain a very short beginning of the 
 ```
 python prepare_dataset.py your.json your.wav
 ```
+In the list file, it should be like:
+```
+lxx/lxx_1.wav|lxx|en|You don't live here, said the fox.
+lxx/lxx_2.wav|lxx|en|What is that you are looking for?
+```
 #### Done!
 
 ### 4. Finetune the model on your voice

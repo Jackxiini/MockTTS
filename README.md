@@ -28,4 +28,4 @@ python prepare_dataset.py your.json your.wav
 #### Done!
 
 ### 4. Finetune the model on your voice
-Check [this](
+Check [this](https://github.com/Jackxiini/MockTTS/blob/main/assets/docs/voice_clone.md)

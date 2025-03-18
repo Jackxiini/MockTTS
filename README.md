@@ -5,13 +5,13 @@ This project is built on [ChatTTSPlus](https://github.com/warmshao/ChatTTSPlus/t
 The current version is working on finetuning the model based on your own dataset.
 
 ### 1. Prepare your own audio file
-Make sure your file is wav file, if it is not, then you need to convert it to wav. You can use *ffmpeg*. For example, convert m4a to wav:
+Make sure your file is wav file, if it is not, then you need to convert it to wav. You can use **ffmpeg**. For example, convert m4a to wav:
 ```
 ffmpeg -i input.m4a output.wav
 ```
 
 ### 2. Generate transcripts and timestamps
-You may need to use *Whisper*
+You may need to use **Whisper**
 ```
 pip install git+https://github.com/openai/whisper.git
 ```

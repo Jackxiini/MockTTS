@@ -26,3 +26,6 @@ Note: Sometimes the end of the audio will contain a very short beginning of the 
 python prepare_dataset.py your.json your.wav
 ```
 #### Done!
+
+### 4. Finetune the model on your voice
+Check [this](

@@ -21,6 +21,7 @@ whisper your_audio.wav --model small --output_format json
 
 ### 3. Run prepare_dataset.py
 It will generate multiple wav files, each of which basically contains one or two sentences. And it will generate the corresponding list file. (You could have multiple original wav files and their corresponding json files in the same folder, it will generate all in one folder)
+
 Note: Sometimes the end of the audio will contain a very short beginning of the next sentence. If this happens, you can modify the code to use ```"-t", str(duration - 0.5)``` For example, here we set 0.5s to avoid extra audio at the end.
 ```
 python prepare_dataset.py PATH_TO_WAV_AND_JSONS
